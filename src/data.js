@@ -2,6 +2,8 @@ const faker = require('faker');
 
 let companies, productMap;
 
+
+//why does this come first?
 companies = JSON.parse(window.localStorage.getItem('companies'));
 productMap = JSON.parse(window.localStorage.getItem('productMap'));
 
